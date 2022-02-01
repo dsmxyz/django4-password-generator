@@ -1,0 +1,17 @@
+{% extends 'generator/base.html' %}
+{% block title %}About Us{% endblock %}
+{% block content %}
+<h1>About Us</h1>
+</br>
+<div>
+    <p>This is a tool to help users create unique and secure passwords. 
+        In this "technological age" that we live in, every app, website etc. 
+        required some from of login credentials. In order to prevent being hacked
+        it is recommended to generate passwords that are long, contain numbers or
+        special characters, and include a mix of both upper and lowercase letters.
+        This password generating tool can help you accomplish this with ease.
+    </p>
+</div>
+</br>
+<a href="{% url 'home' %}">Generate Password Here</a>
+{% endblock %}
